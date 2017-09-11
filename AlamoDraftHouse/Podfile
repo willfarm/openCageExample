@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'AlamoDraftHouse' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+pod 'Alamofire', '~> 4.5'
+pod 'SVProgressHUD'
+pod 'SwiftyJSON'
+  use_frameworks!
+
+  # Pods for AlamoDraftHouse
+
+  target 'AlamoDraftHouseTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'AlamoDraftHouseUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

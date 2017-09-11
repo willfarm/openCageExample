@@ -1,0 +1,6 @@
+framework module Pods_AlamoDraftHouse {
+  umbrella header "Pods-AlamoDraftHouse-umbrella.h"
+
+  export *
+  module * { export * }
+}
